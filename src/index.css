@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.anim {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.anim > div {
+  position: absolute !important;
+  width: 100% !important;
+  height: 84% !important;
+  overflow: hidden !important;
+  z-index: -1 !important;
+  background-color: black !important;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+.appContainer > :nth-child(2) {
+  height: 15%;
+  width: 100%;
+}
+
+/*? <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HOME PAGE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.home_container {
+  height: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.home_text {
+  text-align: center;
+}
+.home_text > h3 {
+  font-weight: 700;
+}
+.home_text > :first-child {
+  font-size: 50px;
+  margin-bottom: 17px;
+}
+.home_text > :nth-child(2) {
+  font-size: 23px;
+  margin-bottom: 32px;
+}
+.home_text > :nth-child(2) > span {
+  color: #9e9e9e;
+}
+.home_text_surname {
+  color: #66b95c;
+}
+.home_button {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  display: inline-block;
+  background-color: #66b95c;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 50px;
+  font-family: Poppins;
+  transition: all 0.3s ease;
+}
+
+/*? <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ABOUT PAGE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.aboutMe_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.aboutMe_container > div {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMe_leftSide > img {
+  width: 300px;
+  height: 320px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.aboutMe_rightSide {
+  width: 400px;
+}
+.aboutMe_rightSide > :first-child {
+  font-size: 36px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.aboutMe_rightSide > p {
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: #a2a2a2;
+}
+.border {
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  border-bottom: 1px dashed hsla(0, 0%, 100%, 0.15);
+}
+
+.contact_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact_container > div {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}

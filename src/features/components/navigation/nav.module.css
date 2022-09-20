@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.container > div {
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.right_side {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.logo {
+  width: 170px;
+  height: 100px;
+}
